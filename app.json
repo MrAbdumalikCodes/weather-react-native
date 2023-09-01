@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "react-native-app",
+    "name": "Weather",
     "slug": "react-native-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -19,12 +19,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/weather-news.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.mrabdumalik9089.reactnativeapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e0d7ae04-3a72-45fc-94f1-579b03a285c7"
+      }
     }
   }
 }
